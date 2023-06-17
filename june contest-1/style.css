@@ -1,0 +1,10 @@
+.error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  body{
+    background-color: rgb(219, 215, 210);
+  }

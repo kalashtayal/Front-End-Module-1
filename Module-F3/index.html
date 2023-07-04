@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> IP ADDRESS Project </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Icon.png" type="image/x-icon">
+  </head>
+  <body>
+    <h3>MY Public IP ADDRESS : <span id="ip"></span></h3>
+    <button id="dataBtn">Get Data </button>
+    <div class="datalist">
+      <ul>
+        <li id="lat"></li>
+        <li id="city"></li>
+        <li id="orga"></li>
+      </ul>
+    </div>
+    <div class="data">
+      <ul>
+        <li id="long"></li>
+        <li id="region"></li>
+        <li id="hostname"></li>
+      </ul>
+    </div>
+    <div id="map"></div>
+
+    <div>
+      <ul style="list-style-type: none">
+        <li id="timezone"></li>
+        <li id="datetime"></li>
+        <li id="pincode"></li>
+        <li id="message"></li>
+      </ul>
+    </div>
+    <div id="inputContainer"></div>
+
+    <input
+    
+      type="search"
+      id="searchInput"
+      placeholder="Filter"
+    />
+
+    <div id="postalOfficesContainer" class="card-container"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>

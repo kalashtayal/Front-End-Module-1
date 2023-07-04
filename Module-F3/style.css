@@ -1,0 +1,70 @@
+#dataBtn{
+   
+padding: 10px 50px;
+color: white;
+background-color: black;
+border-radius: 8px;
+border: none;
+      
+}
+
+#searchInput{
+        visibility: hidden;
+        width: 100%;
+        padding: 10px 5px;
+        border-radius: 5px;
+        border: 1px solid grey;
+}
+.card-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.card {
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 10px;
+   width: 550px;
+   font-size: 20px;
+}
+
+.card h3 {
+   margin: 0;
+}
+
+.card p {
+   margin-top: 5px;
+   margin-bottom: 0;
+}
+
+#map {
+   height: 300px;
+}
+
+.datalist {
+   display: flex;
+}
+
+.datalist ul {
+   display: flex;
+   list-style-type: none;
+}
+
+.datalist ul li {
+   padding: 0px 40px;
+}
+
+.data {
+   display: flex;
+}
+
+.data ul {
+   display: flex;
+   list-style-type: none;
+}
+
+.data ul li {
+   padding: 0px 35px;
+}
